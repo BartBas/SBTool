@@ -1,3 +1,9 @@
 body {
-    background-color: greenyellow;
+    background-color: #00183E;
 }
+th{
+border-bottom-color: orange;
+    border-bottom: 2px;
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
