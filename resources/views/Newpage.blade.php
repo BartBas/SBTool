@@ -5,12 +5,16 @@
 </head>
 <body>
 
-
+<table>
 @foreach($table as $row)
-    @if ($row->first)
-        <p>    {{$row}} </p>
-    @endif
-    {{$row}} <br>
+<tr>
+    @foreach($row as $collum)
+        <th>
+            {{ $collum }}
+        </th>
+    @endforeach
+</tr>
 @endforeach
+</table>
 </body>
 </html>
