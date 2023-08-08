@@ -20,4 +20,4 @@ Route::get('/', function () {
 Route::get('/inspire', function () {
     return view('inspire');
 });
-Route::get('/Newpage', [testcontrollerofzo::class, 'test'])->name('test');
+Route::get('/ShipDump', [testcontrollerofzo::class, 'test'])->name('test');
