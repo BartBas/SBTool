@@ -10,7 +10,7 @@
 <label for="cars">Choose a car:</label>
 <select name="cars" id="cars" form="carform">
     @foreach($table as $ships)
-        <option value={{$ships['EN']}}>{{$ships['EN']}}</option>
+        <option value={{$ships['ID']}}>{{$ships['EN']}}</option>
     @endforeach
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
@@ -18,9 +18,9 @@
     <option value="audi">Audi</option>
 </select>
 
-
-
-
+<br>
+{{$table[1]}}
+<br>
 <table>
     <tr>
     @foreach(array_keys($table[0]) as $keys)
