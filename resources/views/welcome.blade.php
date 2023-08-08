@@ -1,7 +1,7 @@
 <html>
-<link rel="stylesheet" type="text/css" href={{asset('css/style.css')}}>
+@vite('build')
 <body>
-This will be the site for the Shipbuilding tool!<br>
+This will be the site for the Shipbuilding tool! NOW WITH CSS!<br>
 <a href="/inspire">New link</a>.
 </body>
 </html>
