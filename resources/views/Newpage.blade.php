@@ -8,11 +8,9 @@
 
 @foreach($table as $row)
     @if ($row->first)
-        <p>    {{$row}} </p> <br>
-    @else
-        {{$row}} <br>
+        <p>    {{$row}} </p>
     @endif
-
+    {{$row}} <br>
 @endforeach
 </body>
 </html>
