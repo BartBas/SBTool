@@ -5,7 +5,14 @@
 </head>
 <body>
 
-{{ $table }} <br>
 
+@foreach($table as $row)
+    @if ($row->first)
+        <p>    {{$row}} </p> <br>
+    @else
+        {{$row}} <br>
+    @endif
+
+@endforeach
 </body>
 </html>
