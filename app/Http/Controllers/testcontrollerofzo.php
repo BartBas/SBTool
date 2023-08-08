@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class testcontrollerofzo extends Controller
 {
     public function test(){
-        return view('Newpage',['table' => TestModel::all()]);
+        return view('Newpage',['table' => TestModel::all()->toArray()]);
     }
 
 }

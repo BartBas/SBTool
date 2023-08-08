@@ -7,7 +7,7 @@
 
 <table>
     <tr>
-    @foreach(array_keys($table[2]) as $keys)
+    @foreach(array_keys($table) as $keys)
         <th>{{$keys}}</th>
     @endforeach
     </tr>
