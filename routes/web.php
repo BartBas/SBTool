@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\testcontrollerofzo;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,4 +20,4 @@ Route::get('/', function () {
 Route::get('/inspire', function () {
     return view('inspire');
 });
-Route::get('/Newpage', [AuthController::class, 'login'])->name('auth.login');
+Route::get('/Newpage', [testcontrollerofzo::class, 'test'])->name('test');
