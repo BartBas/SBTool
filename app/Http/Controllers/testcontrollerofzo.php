@@ -8,8 +8,10 @@ use Illuminate\Http\Request;
 
 class testcontrollerofzo extends Controller
 {
-    public function test(){
+    public function ShipDump(){
         return view('ShipDump',['table' => TestModel::all()->toArray()]);
     }
-
+    public function PartsDump(){
+        return view('PartsDump',['table' => TestModel::all()->toArray()]);
+    }
 }
