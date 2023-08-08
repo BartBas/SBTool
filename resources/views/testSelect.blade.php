@@ -10,7 +10,7 @@
 <label for="cars">Choose a car:</label>
 <select name="cars" id="cars" form="carform">
     @foreach($table as $ships)
-        <option value={{$ships('EN')}}>{{$ships('EN')}}</option>
+        <option value={{$ships['EN']}}>{{$ships['EN']}}</option>
     @endforeach
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
