@@ -1,8 +1,12 @@
-<html>
 @vite(['resources/css/app.css', 'resources/js/app.js'])
+<html>
+<head>
+    <title>PHP Test</title>
+</head>
 <body>
-This will be the next page for the tests now WITH CSS<br>
+<?php echo '<p>Hello World</p>'; ?>
 
-<a href="/">TAKE ME HOME</a>.
+
+
 </body>
 </html>
