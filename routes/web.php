@@ -21,5 +21,6 @@ Route::get('/inspire', function () {
     return view('inspire');
 });
 Route::get('/ShipDump', [testcontrollerofzo::class, 'ShipDump'])->name('ShipDump');
+Route::get('/testSelect', [testcontrollerofzo::class, 'ShipDump'])->name('ShipDump');
 
 Route::get('/PartsDump', [testcontrollerofzo::class, 'PartsDump'])->name('PartsDump');

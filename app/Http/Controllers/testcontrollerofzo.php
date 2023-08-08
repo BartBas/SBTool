@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class testcontrollerofzo extends Controller
 {
     public function ShipDump(){
-        return view('ShipDump',['table' => TestModel::all()->toArray()]);
+        return view('ShipDump',['table' => TestModel::all()->toArray(),'names' => TestModel::all()->only('EN')]);
     }
     public function PartsDump(){
         return view('PartsDump',['table' => PartsDump::all()->toArray()]);
