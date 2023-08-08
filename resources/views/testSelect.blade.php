@@ -19,7 +19,7 @@
 </select>
 
 <br>
-{{$table[1]['EN']}}
+{{$table[4]['EN']}}
 <br>
 <table>
     <tr>
