@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class PartsDump extends Model
 {
     use HasFactory;
-    protected $table = 'partdb';
+    protected $table = 'fsparts';
 }
