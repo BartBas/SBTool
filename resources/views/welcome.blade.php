@@ -1,6 +1,6 @@
 <html>
 <body>
-This will be the site for the Shipbuilding tool! WITH database connections now
+This will be the site for the Shipbuilding tool!\n
 <a href="/inspire">New link</a>.
 </body>
 </html>
