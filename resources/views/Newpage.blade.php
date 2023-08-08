@@ -6,12 +6,17 @@
 <body>
 
 <table>
+    <tr>
+    @foreach(array_keys($table[0]) as $keys)
+        <th>{{$keys}}</th>
+    @endforeach
+    </tr>
 @foreach($table as $row)
 <tr>
     @foreach($row as $collum)
-        <th>
+        <td>
             {{ $collum }}
-        </th>
+        </td>
     @endforeach
 </tr>
 @endforeach
