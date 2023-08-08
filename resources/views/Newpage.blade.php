@@ -5,7 +5,7 @@
 </head>
 <body>
 
-{{ $test0 }} <br>
+{{ $test }} <br>
 
 </body>
 </html>
